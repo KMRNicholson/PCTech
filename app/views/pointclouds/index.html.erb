@@ -20,8 +20,8 @@
          
          <tr>
             <td><%= pc.name %></td>
-            <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
-            <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+            <td><%= link_to "Display Pointcloud", pc.attachment_url %></td>
+            <td><%= button_to "Delete",  pc, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pc.name}?" %></td>
          </tr>
          
       <% end %>

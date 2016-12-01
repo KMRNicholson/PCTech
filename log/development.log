@@ -473,3 +473,1226 @@ Processing by PointcloudsController#index as HTML
 Completed 200 OK in 18ms (Views: 13.6ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:39:15 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 64ms (Views: 59.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:40:02 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:40:27 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:40:28 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:41:05 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:41:06 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.5ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 20:41:10 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 20:45:15 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+Started GET "/" for 127.0.0.1 at 2016-11-30 20:45:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 20:53:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:53:10 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  Rendered pointclouds/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    16:    </thead>
+    17:    
+    18:    <tbody>
+    19:       <% @pointclouds.each do |pc| %>
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+  
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292579776580'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.9ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:53:36 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (77.6ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x007fdc95543c78>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292687487080'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292687487080'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:54:29 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (86.7ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x007fdc88353380>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292577361580'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292577361580'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.7ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:54:30 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (91.4ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x00000001ada380>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_15268900'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_15268900'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:54:32 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.6ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (114.7ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x007fdc96c2bda0>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292698563560'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292698563560'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+Started GET "/pointcloud" for 127.0.0.1 at 2016-11-30 20:54:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pointcloud"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.5ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:54:43 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (79.8ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x007fdc8061ed10>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292511718260'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292511718260'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 20:54:46 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:54:52 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (83.2ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x007fdc95552b10>:0x007fdc94d71568>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointcloud.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292683330660'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292683330660'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:56:21 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (67.6ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointclouds' for #<#<Class:0x00000003bbac30>:0x00000003bddfa0>
+Did you mean?  @pointclouds):
+    20:          
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pointclouds.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+  
+app/views/pointclouds/index.html.erb:23:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_31295500'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_31295500'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.5ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:57:32 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (75.5ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x00000003bbac30>:0x007fdc8c393288>
+Did you mean?  @pointclouds):
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pc.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pointcloud, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+    27:       <% end %>
+  
+app/views/pointclouds/index.html.erb:24:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292584005760'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292584005760'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:57:44 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (80.9ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pointcloud' for #<#<Class:0x00000003bbac30>:0x007fdc808f9f08>
+Did you mean?  @pointclouds):
+    21:          <tr>
+    22:             <td><%= pc.name %></td>
+    23:             <td><%= link_to "Display Pointcloud", pc.attachment_url %></td>
+    24:             <td><%= button_to "Delete",  pc, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{pointcloud.name}?" %></td>
+    25:          </tr>
+    26:          
+    27:       <% end %>
+  
+app/views/pointclouds/index.html.erb:24:in `block in _app_views_pointclouds_index_html_erb__4580863308533434061_70292513215600'
+app/views/pointclouds/index.html.erb:19:in `_app_views_pointclouds_index_html_erb__4580863308533434061_70292513215600'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:57:55 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/pointcloud/attachment/980190962/MyString" for 127.0.0.1 at 2016-11-30 20:57:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/980190962/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:02 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/pointcloud/attachment/980190962/MyString" for 127.0.0.1 at 2016-11-30 20:58:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/980190962/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:12 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pointclouds/980190962" for 127.0.0.1 at 2016-11-30 20:58:13 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"P08NVOP+l9ejWMayn1MUZ0yFylrFWP3PhIx33UroaNw5ssgEQOChhPvnXVQeWDK4/tlpG0KwuPWYlv7iKRlpnw==", "id"=>"980190962"}
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (21.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 26ms (ActiveRecord: 21.7ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:13 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/298486374" for 127.0.0.1 at 2016-11-30 20:58:15 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7zmY284fon2MeqFWX+5ormcxzb+ygkY8HPCEr4DChWfpxF2LbQGULtTFOrDe5U5x1W1u/jVqAwYA6g2Q4zOEJA==", "id"=>"298486374"}
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (46.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 50ms (ActiveRecord: 47.6ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:15 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 20:58:17 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:59 -0400
+Processing by PointcloudsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nXrQG3nnvUrCqJcgnWW9rCbofmKGXAdzx8pl40nnioJP9bMfw+EQwXevUbKMSmFjNsOkhJYj1gxiWTBVznRuZQ==", "pointcloud"=>{"name"=>"Hey", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fdc94e53df0 @tempfile=#<Tempfile:/tmp/RackMultipart20161130-21936-16dwhtm.3d>, @original_filename="test.3d", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"pointcloud[attachment]\"; filename=\"test.3d\"\r\nContent-Type: application/octet-stream\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Hey"], ["attachment", "test.3d"], ["created_at", 2016-12-01 00:58:59 UTC], ["updated_at", 2016-12-01 00:58:59 UTC]]
+  [1m[35m (63.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 71ms (ActiveRecord: 63.7ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:58:59 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/980190963" for 127.0.0.1 at 2016-11-30 20:59:04 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vuNbDJQkUhnr0PO4Ji9aTBaLix4IbnkArO7s2eE0TOK4Hp5cNzpkSrNvaF6nJHyTpNcoX4+GPDqw9GXmgsVNoQ==", "id"=>"980190963"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190963]]
+  [1m[35m (16.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 20ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:59:04 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:59:10 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:59:39 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.5ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/uploads/pointcloud/attachment/980190962/MyString" for 127.0.0.1 at 2016-11-30 20:59:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/980190962/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.8ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:59:49 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.4ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/uploads/pointcloud/attachment/298486374/MyString" for 127.0.0.1 at 2016-11-30 20:59:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/298486374/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [10 times] (4.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.1ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 20:59:52 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:00:33 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pointclouds" for 127.0.0.1 at 2016-11-30 21:00:41 -0400
+Processing by PointcloudsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rkWY/hpQzI005m0M4NjgPGns4oOLgsa1K8jH5fDxNoV8yvv6oFZhBoHhq57x9zzzecc4ZZv9F8qOW5JTd2LSYg==", "pointcloud"=>{"name"=>"hi", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007fdc84110ba8 @tempfile=#<Tempfile:/tmp/RackMultipart20161130-21936-1bw5p33.pose>, @original_filename="scan000.pose", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"pointcloud[attachment]\"; filename=\"scan000.pose\"\r\nContent-Type: application/octet-stream\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/pointclouds/980190962" for 127.0.0.1 at 2016-11-30 21:02:27 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ohubsxfW3RPieVA6cBsNGX95sFY8e9EAvvig8j15BNSk5l7jtMjrQLrGy9zxECvGzSUTF7uTlDqi4inNXogFlw==", "id"=>"980190962"}
+  [1m[36mPointcloud Load (0.4ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (12.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 21ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:02:27 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pointclouds/298486374" for 127.0.0.1 at 2016-11-30 21:02:28 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"o6jQseLZjqWDi7o3HzeubsONRK9ozXONolzPPXDnMu6lVRXhQce49ts0IdGePIixcdHn7u8lNre+RkYCExYzrQ==", "id"=>"298486374"}
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (10.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 13ms (ActiveRecord: 11.1ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:02:28 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:02:35 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.4ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/pointclouds/980190962" for 127.0.0.1 at 2016-11-30 21:02:36 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VBoj02mfW+tvem1yot0nBHb+iw+MsQX4/3iXLaGz+PBS5+aDyoFtuDfF9pQj1gHbxKIoTgtZQMLjYh4SwkL5sw==", "id"=>"980190962"}
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (90.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 94ms (ActiveRecord: 91.5ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:02:37 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/298486374" for 127.0.0.1 at 2016-11-30 21:02:37 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0AYcmVvRBm6vYj9phtPvftbAYepALvyzALQGS2lUbeTW+9nJ+M8wPffdpI8H2MmhZJzCq8fGuYkcro90CqVspw==", "id"=>"298486374"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (12.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 16ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:02:37 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:04:29 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/pointcloud/attachment/980190962/MyString" for 127.0.0.1 at 2016-11-30 21:04:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/980190962/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (2.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:04:34 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/pointcloud/attachment/980190962/MyString" for 127.0.0.1 at 2016-11-30 21:04:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/uploads/pointcloud/attachment/980190962/MyString"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (2.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.8ms)
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:04:49 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pointclouds/980190962" for 127.0.0.1 at 2016-11-30 21:04:54 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lliZBmzx4n44moN84lPV/TmUNm048iFTd/BhtBYjwPuQpVxWz+/ULWAlGJpjWPMii8iVLL8aZGlr6uiLddLBuA==", "id"=>"980190962"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (21.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 25ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:04:54 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/pointclouds/298486374" for 127.0.0.1 at 2016-11-30 21:04:56 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"olUVLCPSzL52hmTZ3T+mlKY7W/Mjff0PVpuVXJoPcDmkqNB8gMz67S45/z9cNIBLFGf4sqSVuDVKgRxj+f5xeg==", "id"=>"298486374"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (14.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 17ms (ActiveRecord: 15.1ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:04:56 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:05:04 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pointclouds" for 127.0.0.1 at 2016-11-30 21:05:05 -0400
+Processing by PointcloudsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BlEXmyh85gtQ++i2dpdAf54ZZeCMUOc6n8rnT3n2WaLU3nSfknpLgOX8LiRnuJywjjK/BpwvNkU6WbL5/mW9RQ==", "pointcloud"=>{"name"=>""}, "commit"=>"Upload"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/pointclouds" for 127.0.0.1 at 2016-11-30 21:05:08 -0400
+Processing by PointcloudsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yd1jJKdXucfJU5J9JjiQODyHQZRBkqLe4nMUAmHpme3PIKZ0BEmPlJHsCZunM7bnjtvi1cZ65+T+aZ09AhiYrg==", "pointcloud"=>{"name"=>"hey"}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "hey"], ["created_at", 2016-12-01 01:05:08 UTC], ["updated_at", 2016-12-01 01:05:08 UTC]]
+  [1m[35m (15.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 20ms (ActiveRecord: 15.8ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:05:08 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:10 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:11 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:13 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:13 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:13 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:05:13 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/980190963" for 127.0.0.1 at 2016-11-30 21:05:14 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3CiXm8fbbnXqkhBSJDWgdpnip2zBCMY9AUZX1dDropSWgZEXOmjgnzeQFNTvX/VBe6u2SAotfVfbL4ySvmlTvw==", "id"=>"980190963"}
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190963]]
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 22ms (ActiveRecord: 20.2ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:05:14 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:08:40 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 23ms (Views: 17.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:08:42 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:09:36 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/980190962" for 127.0.0.1 at 2016-11-30 21:09:37 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SfPN3exJsuvCI41fvSYBPWTOsIu+Hk1b6MmCLbfXU89PDgiNT1eEuJqcFrk8LSfi1pITyjn2CGH00wsS1CZSjA==", "id"=>"980190962"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (26.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 30ms (ActiveRecord: 27.3ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:09:37 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pointclouds/298486374" for 127.0.0.1 at 2016-11-30 21:09:38 -0400
+Processing by PointcloudsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"voWcMD3APHZGSZCWVevGTFikDezO1i5pk2xbKcahMe24eFlgnt4KJR72C3DU4OCT6viurUk+a1OPdtIWpVAwrg==", "id"=>"298486374"}
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds" WHERE "pointclouds"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (9.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 13ms (ActiveRecord: 10.4ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:09:38 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-11-30 21:14:48 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:14:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-11-30 21:15:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (3.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.6ms)
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:15:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:15:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:16:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:17:56 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:19:28 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:19:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:20:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:23:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-30 21:27:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+

@@ -1,0 +1,480 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:51:33.847829', '2016-12-01 00:51:33.847829', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:51:33.847829', '2016-12-01 00:51:33.847829', 298486374)[0m
+  [1m[35m (30.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 20:51:34 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 224ms (Views: 217.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 20:51:34 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (42.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 20:51:34 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 20:51:34 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 36ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 20:51:34 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:52:45.665944', '2016-12-01 00:52:45.665944', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:52:45.665944', '2016-12-01 00:52:45.665944', 298486374)[0m
+  [1m[35m (20.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 20:52:45 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 129ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 20:52:45 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 20:52:45 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 20:52:45 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  Rendered pointclouds/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 20:52:45 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.1ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:59:25.717497', '2016-12-01 00:59:25.717497', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 00:59:25.717497', '2016-12-01 00:59:25.717497', 298486374)[0m
+  [1m[35m (22.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 20:59:25 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 20:59:26 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 20:59:26 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 20:59:26 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 20:59:26 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:02:31.928703', '2016-12-01 01:02:31.928703', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:02:31.928703', '2016-12-01 01:02:31.928703', 298486374)[0m
+  [1m[35m (20.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 21:02:32 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:04:21.359977', '2016-12-01 01:04:21.359977', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:04:21.359977', '2016-12-01 01:04:21.359977', 298486374)[0m
+  [1m[35m (26.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 133ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.4ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.1ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:04:21 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:09:31.501710', '2016-12-01 01:09:31.501710', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:09:31.501710', '2016-12-01 01:09:31.501710', 298486374)[0m
+  [1m[35m (24.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 114ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+--------------------------------------------------
+PointcloudsControllerTest: test_should_get_destroy
+--------------------------------------------------
+Started GET "/pointclouds/destroy" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by PointcloudsController#destroy as HTML
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" WHERE "pointclouds"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-------------------------------------------------
+PointcloudsControllerTest: test_should_get_create
+-------------------------------------------------
+Started GET "/pointclouds/create" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by PointcloudsController#create as HTML
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:09:31 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.2ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" DISABLE TRIGGER ALL;ALTER TABLE "pointclouds" DISABLE TRIGGER ALL;ALTER TABLE "resumes" DISABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "pointclouds"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:28:14.775658', '2016-12-01 01:28:14.775658', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', '2016-12-01 01:28:14.775658', '2016-12-01 01:28:14.775658', 298486374)[0m
+  [1m[35m (28.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "ar_internal_metadata" ENABLE TRIGGER ALL;ALTER TABLE "pointclouds" ENABLE TRIGGER ALL;ALTER TABLE "resumes" ENABLE TRIGGER ALL[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+PointcloudsControllerTest: test_should_get_index
+------------------------------------------------
+Started GET "/pointclouds/index" for 127.0.0.1 at 2016-11-30 21:28:14 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.4ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 131ms (Views: 124.2ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+----------------------------------------------
+PointcloudsControllerTest: test_should_get_new
+----------------------------------------------
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-11-30 21:28:15 -0400
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+------------------------------------------------
+StaticPagesControllerTest: test_should_get_about
+------------------------------------------------
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-11-30 21:28:15 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Started GET "/static_pages/help" for 127.0.0.1 at 2016-11-30 21:28:15 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-11-30 21:28:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m

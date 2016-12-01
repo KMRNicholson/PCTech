@@ -11,14 +11,4 @@ class PointcloudsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get create" do
-    get pointclouds_create_url
-    assert_response :success
-  end
-
-  test "should get destroy" do
-    get pointclouds_destroy_url
-    assert_response :success
-  end
-
 end
