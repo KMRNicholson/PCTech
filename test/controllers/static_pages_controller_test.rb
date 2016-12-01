@@ -21,4 +21,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get signup" do
+    get signup_path
+    assert_response :success
+  end
+
 end
