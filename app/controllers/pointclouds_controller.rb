@@ -1,6 +1,6 @@
 class PointcloudsController < ApplicationController
   def index
-  	@pointclouds = Pointcloud.all
+  	@pointcloud = Pointcloud.all
   end
 
   def new
@@ -11,16 +11,16 @@ class PointcloudsController < ApplicationController
   	@pointcloud = Pointcloud.new(pointcloud_params)
 
   	if @pointcloud.save
-  		redirect_to pointclouds_path, notice: "The pointcloud file #{@pointcloud.name} has been uploaded."
+  		redirect_to pointclouds_path
   	else
   		render "new"
   	end
   end
 
   def destroy
-  	@pointcloud = Pointcloud.find(params[:id])
+  	@pointcloud = Pointcloud.find_by(params[:id])
   	@pointcloud.destroy
-  	redirect_to pointclouds_path, notice: "The pointcloud file #{@pointcloud.name} has been deleted."
+  	redirect_to pointclouds_path
   end
 
   private #-----------------------------------------------------
