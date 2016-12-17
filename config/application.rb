@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 require "active_record/railtie"
 
+config.assets.initialize_on_precompile = false
+
 module PCTech
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
