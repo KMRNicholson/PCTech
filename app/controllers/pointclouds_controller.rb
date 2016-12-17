@@ -18,9 +18,14 @@ class PointcloudsController < ApplicationController
   end
 
   def destroy
-  	@pointcloud = Pointcloud.find_by(params[:id])
+  	@pointcloud = Pointcloud.find(params[:id])
   	@pointcloud.destroy
   	redirect_to pointclouds_path
+  end
+
+  def display
+    @pointcloud = Pointcloud.find_by(params[:id])
+    render :layout => "pointcloud_viewer"
   end
 
   private #-----------------------------------------------------

@@ -12,11 +12,15 @@ Rails.application.routes.draw do
   post '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
 
-  get '/pointcloud', to: 'pointclouds#index'
-  delete '/pointcloud', to: 'pointclouds#destroy'
+  get 'pointclouds/index'
   get 'pointclouds/new'
   get 'pointclouds/create'
-  get 'pointclouds/destroy'
+  get 'pointclouds/display'
+  delete 'pointclouds/destroy'
+
+  post '/pointclouds/new', to: 'pointclouds#new'
+  get '/pointcloud_disp', to: 'pointclouds#display'
+  #get '/attachment/', to: 'pointclouds#display'
 
   resources :users
 

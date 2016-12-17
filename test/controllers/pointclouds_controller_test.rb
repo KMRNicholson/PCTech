@@ -2,7 +2,7 @@ require 'test_helper'
 
 class PointcloudsControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get pointclouds_index_url
+    get pointcloud_path
     assert_response :success
   end
 

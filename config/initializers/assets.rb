@@ -9,3 +9,9 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( three.js )
+Rails.application.config.assets.precompile += %w( PointRenderer.js )
+Rails.application.config.assets.precompile += %w( XShader.js )
+Rails.application.config.assets.precompile += %w( FragmentShader.js )
+Rails.application.config.assets.precompile += %w( TypedArrayUtils.js )
+Rails.application.config.assets.precompile += %w( FirstPersonControls.js )
