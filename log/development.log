@@ -26851,3 +26851,46 @@ Processing by PointcloudsController#index as HTML
 Completed 200 OK in 124ms (Views: 118.1ms | ActiveRecord: 4.2ms)
 
 
+Started GET "/pointclouds/new" for 127.0.0.1 at 2016-12-17 22:15:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PointcloudsController#new as HTML
+  Rendering pointclouds/new.html.erb within layouts/application
+  Rendered pointclouds/new.html.erb within layouts/application (25.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (14.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 266ms (Views: 238.4ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/pointclouds" for 127.0.0.1 at 2016-12-17 22:16:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PointcloudsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A6+CVzKuW/Sim8Cg9lMpkfkSQuaeeOShs90evChUVJ+mCy4KL9VBCAvUWZLCm0NCWExiwiO5rGD6KiH7Acl+7w==", "pointcloud"=>{"name"=>"test", "attachment"=>#<ActionDispatch::Http::UploadedFile:0x007f33103d3818 @tempfile=#<Tempfile:/tmp/RackMultipart20161217-17601-1bds11x.txt>, @original_filename="Test.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"pointcloud[attachment]\"; filename=\"Test.txt\"\r\nContent-Type: text/plain\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "pointclouds" ("name", "attachment", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "test"], ["attachment", "Test.txt"], ["created_at", 2016-12-18 02:16:19 UTC], ["updated_at", 2016-12-18 02:16:19 UTC]]
+  [1m[35m (26.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pointclouds
+Completed 302 Found in 67ms (ActiveRecord: 30.5ms)
+
+
+Started GET "/pointclouds" for 127.0.0.1 at 2016-12-17 22:16:20 -0400
+Processing by PointcloudsController#index as HTML
+  Rendering pointclouds/index.html.erb within layouts/application
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT "pointclouds".* FROM "pointclouds"[0m
+  Rendered pointclouds/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (14.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 215ms (Views: 210.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/pointcloud_disp.980190983" for 127.0.0.1 at 2016-12-17 22:16:21 -0400
+Processing by PointcloudsController#display as 
+  [1m[36mPointcloud Load (0.3ms)[0m  [1m[34mSELECT  "pointclouds".* FROM "pointclouds" LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering pointclouds/display.html.erb within layouts/pointcloud_viewer
+  Rendered pointclouds/display.html.erb within layouts/pointcloud_viewer (0.3ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.3ms)
+
+
