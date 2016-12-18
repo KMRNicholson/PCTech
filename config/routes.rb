@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   get 'pointclouds/display'
   delete 'pointclouds/destroy'
 
-  post '/pointclouds/new', to: 'pointclouds#new'
+  post '/pointclouds', to: 'pointclouds#create'
   get '/pointcloud_disp', to: 'pointclouds#display'
   #get '/attachment/', to: 'pointclouds#display'
 
