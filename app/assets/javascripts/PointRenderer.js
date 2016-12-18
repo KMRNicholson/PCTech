@@ -142,6 +142,7 @@ var camera, scene, renderer;
 				}
 			}
 
+alert(window.location.origin);
 
 jQuery.get(window.location.origin + url, function(data) {
 
