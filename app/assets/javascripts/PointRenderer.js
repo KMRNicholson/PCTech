@@ -142,7 +142,7 @@ var camera, scene, renderer;
 			}
 
 
-jQuery.get('http://localhost:3000' + url, function(data) {
+jQuery.get('https://pctech.herokuapp.com' + url, function(data) {
 
 	
 	//alert(data);
