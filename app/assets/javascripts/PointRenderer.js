@@ -11,8 +11,9 @@ var camera, scene, renderer;
 
 			var blocker = document.getElementById( 'blocker' );
 			var instructions = document.getElementById( 'instructions' );
-
 				var url = document.getElementById( 'url' ).textContent;
+
+
 
 
 
@@ -142,10 +143,10 @@ var camera, scene, renderer;
 			}
 
 
-jQuery.get('https://pctech.herokuapp.com' + url, function(data) {
+jQuery.get(window.location.origin + url, function(data) {
 
 	
-	//alert(data);
+	alert(data);
 	file = data.split('/');
 	//alert(file);
 
