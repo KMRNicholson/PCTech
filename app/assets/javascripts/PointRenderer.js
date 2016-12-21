@@ -69,9 +69,9 @@ var camera, scene, renderer;
 				particles = new THREE.Points( _particleGeom);
 
 				for (var x = 0; x < file.length-1; x++) {
-					positions[ x * 3 + 0 ] = file[x][0]*1000;
-					positions[ x * 3 + 1 ] = file[x][1]*1000;
-					positions[ x * 3 + 2 ] = file[x][2]*1000;
+					positions[ x * 3 + 0 ] = file[x][0]*250;
+					positions[ x * 3 + 1 ] = file[x][1]*250;
+					positions[ x * 3 + 2 ] = file[x][2]*250;
 					alphas[x] = 1.0;
 				}
 

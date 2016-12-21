@@ -1,6 +1,10 @@
-<div id="url" style="display: none;"><%= @pointcloud.attachment_url %></div><div id="info"><a href="http://threejs.org" target="_blank">three.js</a> - 3D Modeling Javascript Library</div>
-<%= javascript_include_tag 'jquery-3.1.1.min.js' %>
-<%= javascript_include_tag "three.js" %>
-<%= javascript_include_tag "TypedArrayUtils.js" %>
-<%= javascript_include_tag "FirstPersonControls.js" %>
-<%= javascript_include_tag "PointRenderer.js" %>
+<% if logged_in? %>
+	<div id="url" style="display: none;"><%= @pointcloud.attachment_url %></div><div id="info"><a href="http://threejs.org" target="_blank">three.js</a> - 3D Modeling Javascript Library</div>
+	<%= javascript_include_tag 'jquery-3.1.1.min.js' %>
+	<%= javascript_include_tag "three.js" %>
+	<%= javascript_include_tag "TypedArrayUtils.js" %>
+	<%= javascript_include_tag "FirstPersonControls.js" %>
+	<%= javascript_include_tag "PointRenderer.js" %>
+<% else %>
+   <%= content_tag(:div, "Please log in to view this page.", class: "alert alert-danger") %>
+<% end %>

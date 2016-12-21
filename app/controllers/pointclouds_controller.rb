@@ -23,8 +23,8 @@ class PointcloudsController < ApplicationController
   	redirect_to pointclouds_path
   end
 
-  def display
-    @pointcloud = Pointcloud.find_by(params[:id])
+  def show
+    @pointcloud = Pointcloud.find(params[:id])
     render :layout => "pointcloud_viewer"
   end
 

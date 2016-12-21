@@ -4,31 +4,35 @@
    </div>
 <% end %>
 
-<h1>Library</h1>
+<% if logged_in? %>
+   <h1>Library</h1>
 
-<table class = "table table-bordered table-striped">
-   <thead>
-      <tr>
-         <th>Name</th>
-         <th>Display Link</th>
-         <th> </th>
-      </tr>
-   </thead>
-   
-   <tbody>
-      <% @pointcloud.each do |pc| %>
+   <table class = "table table-bordered table-striped">
+      <thead>
          <tr>
-            <td><%= pc.name %></td>
-            <td><%=link_to "Display", pointcloud_disp_path(pc), :target => "_blank"%>
-            </td>
-            <td><%= link_to "Delete", pointcloud_path(pc), method: :delete, data: { confirm: 'Are you sure?'}, class: "btn btn-danger" %>
-            </td>
+            <th>Name</th>
+            <th>Display Link</th>
+            <th> </th>
          </tr>
-         
-      <% end %>
-   </tbody>
-</table>
+      </thead>
+      
+      <tbody>
+         <% @pointcloud.each do |pc| %>
+            <tr>
+               <td><%= pc.name %></td>
+               <td><%=link_to "Display", model_path(pc), :target => "_blank"%>
+               </td>
+               <td><%= link_to "Delete", pointcloud_path(pc), method: :delete, data: { confirm: 'Are you sure?'}, class: "btn btn-danger" %>
+               </td>
+            </tr>
+            
+         <% end %>
+      </tbody>
+   </table>
 
-<div class="span7 text-center">
-<%= link_to "Upload File", new_pointcloud_path, class: "btn btn-primary" %>
-</div>
+   <div class="span7 text-center">
+   <%= link_to "Upload File", upload_path, class: "btn btn-primary" %>
+   </div>
+<% else %>
+   <%= content_tag(:div, "Please log in to view this page.", class: "alert alert-danger") %>
+<% end %>

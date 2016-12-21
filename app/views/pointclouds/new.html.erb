@@ -1,6 +1,5 @@
 <% if !@pointcloud.errors.empty? %>
-   <div class = "alert alert-error">
-      
+   <div class = "alert alert-error">     
       <ul>
          <% @pointcloud.errors.full_messages.each do |msg| %>
             <li><%= msg %></li>
@@ -10,15 +9,19 @@
    </div>
 <% end %>
 
-<h1>Upload File</h1>
+<% if logged_in? %>
+   <h1>Upload File</h1>
 
-<div class = "well">
-   <%= form_for @pointcloud, html: { multipart: true } do |f| %>
-      <%= f.label :name %>
-      <%= f.text_field :name %>
-      <%= f.label :attachment %>
-      <%= f.file_field :attachment %>
-      <%= f.submit "Upload", class: "btn btn-primary" %>
-   <% end %>
-</div>
+   <div class = "well">
+      <%= form_for @pointcloud, html: { multipart: true } do |f| %>
+         <%= f.label :name %>
+         <%= f.text_field :name %>
+         <%= f.label :attachment %>
+         <%= f.file_field :attachment %>
+         <%= f.submit "Upload", class: "btn btn-primary" %>
+      <% end %>
+   </div>
+<% else %>
+   <%= content_tag(:div, "Please log in to view this page.", class: "alert alert-danger") %>
+<% end %>
 
