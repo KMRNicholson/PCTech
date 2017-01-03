@@ -1,4 +1,4 @@
-# README
+# PCTECH
 
 This web application was developed for the CS2043 team project. It is hosted on Heroku.com with the address pctech.herokuapp.com and is developed using the Ruby on Rails web development framework.
 
