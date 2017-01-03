@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This web application was developed for the CS2043 team project. It is hosted on Heroku.com with the address pctech.herokuapp.com and is developed using the Ruby on Rails web development framework.
 
-Things you may want to cover:
+It uses Rails 5. Must have rails and ruby installed on your machine. All gem dependencies should be located in the gemfile.
 
-* Ruby version
+For the database, I set it up on my local with postgreSQL.
 
-* System dependencies
+In order to run tests, simply use the built in rails test method.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The functionality of this web application is to simply render coordinate points from a file, and display it to the user in the browser. It uses three.js which is a massive javascript library that allows you to create and display 3D models.
